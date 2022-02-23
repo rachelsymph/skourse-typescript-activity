@@ -17,7 +17,7 @@ type Listing = {
 
 type GetListingsResponse = {
   success: boolean;
-  data?: Listing[];
+  data: Listing[];
 };
 
 export type { Listing, GetListingsResponse };
