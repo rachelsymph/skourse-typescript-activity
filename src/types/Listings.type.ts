@@ -20,4 +20,4 @@ type GetListingsResponse = {
   data?: Listing[];
 };
 
-export { Listing, GetListingsResponse };
+export type { Listing, GetListingsResponse };
