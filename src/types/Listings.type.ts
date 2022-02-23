@@ -17,7 +17,7 @@ type Listing = {
 
 type GetListingsResponse = {
   success: boolean;
-  data?: Listing[];
+  data: Listing[];
 };
 
-export { Listing, GetListingsResponse };
+export type { Listing, GetListingsResponse };
