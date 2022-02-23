@@ -1,6 +1,6 @@
-This is a skourse collaboration activity
+<h1>This is a skourse collaboration activity</h1>
 
-Tasks:
+<h2>Tasks</h2>
 
 1. Add component navbar that has a switch button to change theme color
 2. Create route for about and contact & Add a footer that has navigation to about and contact
