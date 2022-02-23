@@ -2,7 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 import { useTheme } from './theme/useTheme';
 import Home from './pages/Home';
-import About from './pages/About';
+import About  from './pages/About'
+import Contact from './pages/Contact'
 
 import 'antd/dist/antd.css';
 
@@ -16,8 +17,8 @@ export default function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />
-            {/* Create route for about and contact */}
             <Route path="/about" element={<About/>}/>
+            <Route path="/contact" element={<Contact/>}/>
           </Routes>
         </Router>
         {/* Add a footer that has navigation to about and contact */}
