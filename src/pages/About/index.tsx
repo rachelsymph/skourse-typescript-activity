@@ -1,3 +1,4 @@
+import { AboutContainer } from './style'
 import { Container, Header, ContainerRow, Card, Content } from "./style";
 
 export default function About() {
@@ -46,7 +47,6 @@ export default function About() {
             </article>
           </section>
         </ContainerRow>
-
         <ContainerRow>
           <section>
             <article>
