@@ -1,16 +1,11 @@
-import { FooterContainer, ContactContainer } from './style'
-import {Link} from "react-router-dom";
+import {  ContactContainer } from './style'
 
 const Contact = () =>{
 return(
     <div>
         <ContactContainer>
-            <p>About Page</p>
-        </ContactContainer>
-        <FooterContainer>
-            <Link to="/about">About</Link>
-            <Link to="/contact">Contact</Link>
-        </FooterContainer>
+            <p>Contact Page</p>
+        </ContactContainer> 
     </div>
 )
 }

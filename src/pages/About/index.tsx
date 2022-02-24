@@ -1,5 +1,4 @@
-import { FooterContainer,AboutContainer } from './style'
-import {Link} from "react-router-dom";
+import { AboutContainer } from './style'
 
 const About = () =>{
 return(
@@ -7,10 +6,6 @@ return(
         <AboutContainer>
             <p>About Page</p>
         </AboutContainer>
-        <FooterContainer>
-            <Link to="/about">About</Link>
-            <Link to="/contact">Contact</Link>
-        </FooterContainer>
     </div>
      )   
 }
