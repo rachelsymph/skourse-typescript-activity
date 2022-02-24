@@ -5,8 +5,7 @@ import Home from './pages/Home';
 import About  from './pages/About'
 import Contact from './pages/Contact'
 import Footer from './components/Footer'
-
-import 'antd/dist/antd.css';
+import "antd/dist/antd.css";
 
 export default function App() {
   const { theme, changeTheme } = useTheme();
@@ -18,8 +17,8 @@ export default function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About/>}/>
-            <Route path="/contact" element={<Contact/>}/>
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </Router>
         <Footer/>
