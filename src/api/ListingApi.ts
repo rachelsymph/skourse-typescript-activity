@@ -5,7 +5,7 @@ import { data } from "../data";
 async function getListings(): Promise<GetListingsResponse> {
   return {
     success: true,
-    data: data
+    data
   };
 }
 
