@@ -1,3 +1,5 @@
+import { Listing } from "./types/Listings.type";
+
 export const data = [
   {
     id: "2318",
@@ -113,4 +115,4 @@ export const data = [
       '["Cable TV", "Free street parking", "Dishes and silverware", "BBQ grill", "Wifi", "Coffee maker", "Iron", "Carbon monoxide alarm", "Patio or balcony", "Smoke alarm", "Oven", "Stove", "Essentials", "Smart lock", "Cooking basics", "Heating", "Long term stays allowed", "Hangers", "Dedicated workspace", "Hair dryer", "Dishwasher", "Fire extinguisher", "Hot water", "Shampoo", "Backyard", "Microwave", "Kitchen", "Refrigerator", "TV with standard cable"]',
     price: "$130.00"
   }
-];
+] as Listing[];
